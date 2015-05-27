@@ -8,4 +8,5 @@ module ReviewsHelper
     remainder = (5 - rating)
     "★" * rating.round + "☆" * remainder
   end
+
 end
